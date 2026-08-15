@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="SoldierProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/characters/SoldierProfile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+profile_id = &"spectre"
+display_name = "Spectre"
+callsign = "Vanguard. Four-lamp night rack, shredded cloak, suppressed carbine."
+height = 1.88
+shoulder_width = 0.48
+bulk = 1.0
+stance = 0
+head_style = 0
+ocular_color = Color(1, 1, 1, 1)
+ocular_halo = Color(0.6, 0.76, 1, 1)
+ocular_energy = 8.0
+ocular_radius = 0.03
+has_cloak = true
+cloak_length = 1.15
+cloak_shred = 0.62
+cloak_strips = 13
+has_shroud = false
+flame_points = PackedVector3Array(0.21, 1.44, 0.05, -0.23, 1.41, 0.03, 0, 1.5, 0.11, 0.14, 1.2, 0.14)
+flame_height = 1.0
+flame_width = 0.46
+flame_opacity = 1.0
+weapon = 1
+has_backpack = false
+has_thigh_holster = true
+chest_pouches = 3

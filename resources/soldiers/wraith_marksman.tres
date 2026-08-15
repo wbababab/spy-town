@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="SoldierProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/characters/SoldierProfile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+profile_id = &"wraith"
+display_name = "Wraith"
+callsign = "Marksman. Ghillie shroud, single ranging optic, suppressed precision rifle."
+height = 1.8
+shoulder_width = 0.44
+bulk = 0.88
+stance = 1
+head_style = 1
+ocular_color = Color(1, 1, 1, 1)
+ocular_halo = Color(0.66, 0.8, 1, 1)
+ocular_energy = 7.5
+ocular_radius = 0.036
+has_cloak = false
+cloak_length = 1.0
+cloak_shred = 0.55
+cloak_strips = 11
+has_shroud = true
+flame_points = PackedVector3Array(0.16, 1.34, 0.1)
+flame_height = 0.6
+flame_width = 0.34
+flame_opacity = 0.55
+weapon = 0
+has_backpack = false
+has_thigh_holster = true
+chest_pouches = 2

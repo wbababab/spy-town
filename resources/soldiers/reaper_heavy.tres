@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="SoldierProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/characters/SoldierProfile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+profile_id = &"reaper"
+display_name = "Reaper"
+callsign = "Heavy. Skull faceplate behind armoured glass, vented support gun."
+height = 1.86
+shoulder_width = 0.56
+bulk = 1.3
+stance = 2
+head_style = 2
+ocular_color = Color(0.94, 0.96, 1, 1)
+ocular_halo = Color(0.55, 0.68, 0.92, 1)
+ocular_energy = 6.0
+ocular_radius = 0.028
+has_cloak = true
+cloak_length = 0.85
+cloak_shred = 0.7
+cloak_strips = 9
+has_shroud = false
+flame_points = PackedVector3Array(0.28, 1.42, 0.06, -0.3, 1.39, 0.04)
+flame_height = 0.72
+flame_width = 0.4
+flame_opacity = 0.8
+weapon = 2
+has_backpack = true
+has_thigh_holster = false
+chest_pouches = 3
